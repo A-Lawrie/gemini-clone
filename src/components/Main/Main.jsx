@@ -10,7 +10,7 @@ const Main = () => {
     <div className='main'>
         <div className="nav">
             <p>Lawrie AI</p>
-            <img src={assets.user_icon} alt="" />
+            <img src={assets.passport_photo} alt="" />
         </div>
         <div className="main-container">
 
@@ -41,7 +41,7 @@ const Main = () => {
             </>
             : <div className="result">
                 <div className="result-title">
-                    <img src={assets.user_icon} alt="" />
+                    <img src={assets.passport_photo} alt="" />
                     <p>{recentPrompt}</p>
                 </div>
                 <div className="result-data">
